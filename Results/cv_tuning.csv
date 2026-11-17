@@ -1,0 +1,16 @@
+features,model,cv_mae,m__alpha,max_depth,min_samples_leaf,m__C,m__gamma
+detect,Ridge,21.279462073790146,0.01,,,,
+detect,Tree,12.655447594503713,,8.0,10.0,,
+detect,SVR,11.355566870023987,,,,10.0,0.1
++segment,Ridge,21.168747209581106,1.0,,,,
++segment,Tree,13.142936830355714,,8.0,10.0,,
++segment,SVR,11.414618030372791,,,,10.0,0.1
++obb,Ridge,14.898748777614633,0.01,,,,
++obb,Tree,11.881257296133699,,6.0,10.0,,
++obb,SVR,9.99303359241752,,,,10.0,0.03
++disagreement,Ridge,14.898656183269154,0.01,,,,
++disagreement,Tree,11.249809369874766,,8.0,10.0,,
++disagreement,SVR,10.09249863658369,,,,10.0,0.03
++image_stats,Ridge,15.101516233059495,0.01,,,,
++image_stats,Tree,12.275924277213623,,8.0,30.0,,
++image_stats,SVR,10.476807987895993,,,,10.0,0.03
